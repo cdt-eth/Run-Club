@@ -1,5 +1,10 @@
 html body {
-  background-color: #F3713A;  
+  /* background-color: #F3713A;   */
+  background-color:white;
+}
+
+.MuiAppBar-colorPrimary{
+  background-color: #F3713A !important;
 }
 
 .homeBody{
@@ -16,7 +21,7 @@ html body {
 }
 
 .nav {
-  background: yellow !important;
+  background: #F3713A  !important;
   padding:20px;
 }
 
