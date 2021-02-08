@@ -14,6 +14,10 @@ html body {
 .App {
   text-align: center;
 }
+.navlogo{
+  height:30px !important;
+  float:right;
+}
 
 .App-logo {
   height: 35vmin;
@@ -23,8 +27,30 @@ html body {
 .nav {
   background: #F3713A  !important;
   padding:20px;
+  /* padding-bottom:40px !important; */
+}
+.nav ul {
+  display: flex;
+  justify-content: start;
+  padding: 0;
+  list-style: none;
+}
+.nav li {
+  padding-right:20px;
+  height:30px;
+  list-style-type: none;
+  display:block;
+  float:left;
+}
+.nav li:not(:first-child)  {
+  padding-top:5px;
 }
 
+.nav li a {
+  text-decoration:none;
+  color:white;
+  font-weight:400;
+}
 
 .App-header {
   background-color: #282c34;

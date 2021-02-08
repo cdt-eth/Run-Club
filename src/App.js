@@ -7,6 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Error from './components/Error';
 import Navigation from './components/Navigation';
+import 'fontsource-roboto';
  
 class App extends Component {
   render() {
