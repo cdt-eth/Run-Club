@@ -1,32 +1,32 @@
 html body {
   /* background-color: #F3713A;   */
-  background-color:white;
+  background-color: white;
 }
 
-.MuiAppBar-colorPrimary{
-  background-color: #F3713A !important;
+.MuiAppBar-colorPrimary {
+  background-color: #f3713a !important;
 }
 
-.homeBody{
-  padding:20px;
+.wrapper {
+  padding: 20px;
 }
 
 .App {
   text-align: center;
 }
-.navlogo{
-  height:30px !important;
-  float:right;
+.navlogo {
+  height: 30px !important;
+  float: right;
 }
 
 .App-logo {
   height: 35vmin;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 .nav {
-  background: #F3713A  !important;
-  padding:20px;
+  background: #f3713a !important;
+  padding: 20px;
   /* padding-bottom:40px !important; */
 }
 .nav ul {
@@ -36,20 +36,20 @@ html body {
   list-style: none;
 }
 .nav li {
-  padding-right:20px;
-  height:30px;
+  padding-right: 20px;
+  height: 30px;
   list-style-type: none;
-  display:block;
-  float:left;
+  display: block;
+  float: left;
 }
-.nav li:not(:first-child)  {
-  padding-top:5px;
+.nav li:not(:first-child) {
+  padding-top: 5px;
 }
 
 .nav li a {
-  text-decoration:none;
-  color:white;
-  font-weight:400;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
 }
 
 .App-header {

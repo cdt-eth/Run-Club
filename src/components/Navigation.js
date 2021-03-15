@@ -1,26 +1,25 @@
 import React from "react";
-import logo from '../amrc-white.png'
+import logo from "../amrc-white.png";
 import { NavLink } from "react-router-dom";
-
 
 const Navigation = () => {
   return (
-      <div className="nav">
-        <ul>
+    <div className="nav">
+      <ul>
         <li>
-        <img className="navlogo" src={logo} alt="logo" />
+          <img className="navlogo" src={logo} alt="logo" />
         </li>
         <li>
-        <NavLink to="/">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-        <NavLink to="/about">About</NavLink>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
-        <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
-        </ul>
-      </div>
+      </ul>
+    </div>
   );
 };
 
